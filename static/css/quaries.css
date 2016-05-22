@@ -31,4 +31,8 @@
     background: none !important;
     box-shadow: none !important;
   }
+  .profile-image,
+  .profile-image img {
+    width: auto;
+  }
 }
