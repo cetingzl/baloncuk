@@ -37,6 +37,10 @@ body {
   filter: grayscale(0%);
 }
 .content {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
   display: flex;
 }
 .content,
@@ -45,6 +49,10 @@ body {
 }
 .content-image {
   border: 2px solid #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   border-radius: 100%;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -57,6 +65,10 @@ body {
   width: 220px;
 }
 .content-image img {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   border-radius: 100%;
   transition: 0.6s all;
   width: 100%;
@@ -106,6 +118,10 @@ body {
 }
 .profile-image {
   border: 2px solid #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   border-radius: 100%;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
@@ -117,6 +133,10 @@ body {
   width: 120px;
 }
 .profile-image img {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   border-radius: 100%;
   transition: 0.6s all;
   width: 100%;
