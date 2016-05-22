@@ -32,7 +32,6 @@
     box-shadow: none !important;
   }
   .profile-image img {
-    width: 100%;
     height: 200px;
   }
 }
