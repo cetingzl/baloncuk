@@ -31,8 +31,12 @@
     background: none !important;
     box-shadow: none !important;
   }
+  .content-image,
+  .content-image img,
   .profile-image,
   .profile-image img {
+    border: none;
+    margin: 0 auto;
     width: auto;
   }
 }
