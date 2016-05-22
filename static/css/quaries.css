@@ -27,7 +27,6 @@
   .profile {
     background: none !important;
     box-shadow: none !important;
-    width: 100%;
   }
   .profile-image {
     margin: 0 !important;
@@ -37,7 +36,7 @@
   .profile-image,
   .profile-image img {
     border: none;
-    margin: 0 !important;
+    margin: 0 auto !important;
     width: auto;
   }
 }
