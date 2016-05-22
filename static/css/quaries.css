@@ -31,7 +31,7 @@
     background: none !important;
     box-shadow: none !important;
   }
-  .profile-image {
+  .profile-image img {
     width: 100%;
     display: flex;
     display: -webkit-flex;
