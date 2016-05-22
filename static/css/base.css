@@ -23,6 +23,7 @@ body {
 }
 .logo figure {
   margin: 0 auto;
+  width: 75%;
 }
 .logo img {
   width: 100%;
