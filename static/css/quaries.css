@@ -31,7 +31,8 @@
     background: none !important;
     box-shadow: none !important;
   }
-  .profile-image img {
-    height: 200px;
+  .profile-image {
+    border: none !important;
+    width: inherit;
   }
 }
