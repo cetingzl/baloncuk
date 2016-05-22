@@ -13,6 +13,7 @@
   .content-text {
     margin: 0 auto;
     text-align: center;
+    max-width: 100%;
   }
   .content-text p {
     font-size: 12px;
@@ -30,6 +31,9 @@
   }
   .profile-image {
     margin: 0 !important;
+  }
+  .content-image img {
+    width: inherit !important;
   }
   .content-image,
   .content-image img,

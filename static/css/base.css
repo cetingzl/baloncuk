@@ -6,7 +6,7 @@ html {
 }
 body {
   background: #87ceeb none repeat scroll 0 0;
-  color: #696969;
+  color: #296174;
   font-family: Exo;
   line-height: 2;
   opacity: 0.85;
@@ -116,6 +116,13 @@ body {
 .profile-header h1 {
   color: #fff;
   text-align: center;
+}
+.description {
+  padding: 50px;
+  text-align: justify;
+}
+.description-footer p {
+  color: #296174;
 }
 .profile-image {
   border: 2px solid #fff;
