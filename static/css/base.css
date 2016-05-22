@@ -98,20 +98,28 @@ body {
 .profile-wrapper {
   margin: 0 auto;
 }
+.profile-text h4 {
+  transition: all 0.6s;
+}
 .profile {
   background: url("../img/bubble.jpg") scroll rgba(98,141,209,0.9) none;
   border-radius: 4px;
   transition: all 1s;
+  min-height: 472px;
 }
 .profile:hover {
   background: url("../img/bubble.jpg") fixed rgba(98,141,209,0.9);
   box-shadow: 0 0 2px #808080;
+  transform: scale(1.1, 1.1);
 }
 .profile:hover .profile-image img {
   transform: scale(1.2, 1.2);
 }
 .profile:hover .profile-text p {
   color: #222;
+}
+.profile:hover .profile-text h4 {
+  font-size: 20px;
 }
 .profile-header h1 {
   color: #fff;
@@ -123,7 +131,6 @@ body {
 }
 .description-footer p {
   color: #296174;
-  text-align: inherit;
 }
 .profile-image {
   border: 2px solid #fff;

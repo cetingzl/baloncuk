@@ -90,17 +90,24 @@ body
 .profile-wrapper
   margin 0 auto
 
+.profile-text h4
+  transition all .6s
+
 .profile
   background url(../img/bubble.jpg) scroll rgba(98, 141, 209, .9) none
   border-radius 4px
   transition all 1s
+  min-height 472px
   &:hover
     background url(../img/bubble.jpg) fixed rgba(98, 141, 209, .9)
     box-shadow 0 0 2px gray
+    transform scale(1.1, 1.1)
     .profile-image img
       transform scale(1.2,1.2)
     .profile-text p
       color #222222
+    .profile-text h4
+      font-size 20px
 
 .profile-header
   h1
@@ -113,7 +120,6 @@ body
 
 .description-footer p
   color #296174
-  text-align inherit
 
 .profile-image
     border 2px solid #fff
