@@ -31,6 +31,8 @@
   }
   .profile-image {
     margin: 0 !important;
+    width: auto;
+    height: inherit !important;
   }
   .content-image img {
     width: inherit !important;
@@ -42,5 +44,11 @@
     border: none;
     margin: 0 auto !important;
     width: auto;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .description-footer p {
+    text-align: center !important;
   }
 }
